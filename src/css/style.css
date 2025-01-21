@@ -205,3 +205,21 @@ img{
     text-align: justify;
 }
 /*END SECTION ABOUT ME*/
+
+/*SECTION TECNOLOGIES*/
+#tecnologies{
+    margin-top: 100px;
+
+}
+.skills{
+    display: flex;
+    margin-bottom: 40px;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.skills img{
+    width: 100px;
+    height: 100px;
+}
+/*END SECTION TECNOLOGIES*/
