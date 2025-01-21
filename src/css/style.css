@@ -14,7 +14,37 @@ body {
 img{
     max-width: 100%;
 }
-
+.header-section{
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 0.7;
+}
+.title{
+    font-size: 38px;
+    font-weight: 700;
+    color: #ccc;
+}
+.title span{
+    font-size: 30px;
+    color: #00d4ff;
+    font-weight: 500;
+}
+.subtitle{
+    font-size: 25px;
+    font-weight: 200;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.subtitle::after{
+    content: "";
+    width: 250px;
+    height: 4px;
+    background-color: #00d4ff;
+}
 /*END GLOBAL STYLES*/
 #header{
     box-shadow: 0px 6px 5px #00d4ff;
@@ -168,4 +198,10 @@ img{
 }
 /* END SECTION APRESENTATION*/
 
-/*
+/*SECTION ABOUT ME*/
+.info-aboutme p{
+    color: #d9d9d9;
+    font-size: 1.2rem ;
+    text-align: justify;
+}
+/*END SECTION ABOUT ME*/
