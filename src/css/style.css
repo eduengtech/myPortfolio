@@ -17,7 +17,7 @@ img{
 
 /*END GLOBAL STYLES*/
 #header{
-    box-shadow: 0px 6px 5px #00F6FF;
+    box-shadow: 0px 6px 5px #00d4ff;
 }
 .info-header{
     display: flex;
@@ -25,6 +25,7 @@ img{
     align-items: center;
 }
 
+/*NAVBAR*/
 .navbar-brand{
     font-size: 1.2rem;
     font-weight: 700;
@@ -32,11 +33,11 @@ img{
     text-decoration: none;
 }
 .navbar-brand span {
-    color: #00F6FF;
+    color: #00d4ff;
 }
 .navbar-brand:hover{
-    color: #00F6FF;
-    text-shadow:0 0 5px #00F6FF;
+    color: #00d4ff;
+    text-shadow:0 0 5px #00d4ff;
 }
 .navbar-nav{
     display: flex;
@@ -54,11 +55,117 @@ img{
     transition: color 1s ;
 }
 .navbar-link:hover{
-    color: #00F6FF;
-    border-bottom:2px solid #00F6FF;
+    color: #00d4ff;
+    border-bottom:2px solid #00d4ff;
 }
 .btn{
     color: #a7a7a7;
     font-size: 20px;
     padding: 10px;
 }
+/*END NAVBAR*/
+
+/* SECTION APRESENTATION*/
+
+#apresentation{
+    margin: 100px 0;
+}
+.info-apresentation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-apresentation h1{
+    color: #a7a7a7;
+    font-size: 38px;
+    font-weight: 700;
+}
+.info-apresentation span{
+    color: #00d4ff;
+}
+.social-icoms{
+    display: flex;
+    gap: 20px;
+    color: #b9b9b9;
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+.social-icoms i:hover {
+    color: #00d4ff;
+    text-shadow:0 0 5px #00d4ff;
+}
+.btn-cv a{
+    color: #00d4ff;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    border: 2px solid #00d4ff;
+    border-radius: 10px;
+    padding: 0.3em;
+    margin: 10px 0;
+    text-align: center; 
+}
+.btn-cv a:hover{
+    color: #fff;
+    background-color: #00d4ff;
+    box-shadow: 0 0 5px #00d4ff;
+    font-weight: 600;
+}
+
+.text-animation{
+    font-size: 38px;
+    font-weight: 700;
+}
+.text-animation span{
+    position: relative;
+}
+.text-animation span::before{
+    content: "";
+    background: linear-gradient(90deg, rgb(8, 149, 184) 45%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    color:#a7a7a7;
+    animation: word 20s infinite;
+}
+.text-animation span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left:2px solid #00d4ff;
+    right: -10px;
+    animation: cursor .8s infinite, digita 20s steps(18) infinite;
+    width: calc(100% + 10px);
+    background-color: #1d1b1b;
+}
+@keyframes word {
+    0%, 50%{
+        content: "Desenvolvedor Web";
+    }
+    51%, 100%{
+        content: "Desenvolvedor Web";
+    }
+}
+@keyframes cursor {
+    0%{
+        border-left:2px solid #1d1b1b;
+    }   
+}
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+
+    5%,20%, 25%,40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100% + 10px);
+    }
+}
+
+.profile-photo img{
+    width: 450px;
+    border-radius: 450px;
+    box-shadow:0 0 40px #00d4ff;
+}
+/* END SECTION APRESENTATION*/
+
+/*
