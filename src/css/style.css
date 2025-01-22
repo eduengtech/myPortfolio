@@ -231,11 +231,11 @@ img {
 
 /*SECTION TECNOLOGIES*/
 #tecnologies {
-  margin-top: 100px;
+  margin: 150px 0;
 }
 .skills {
   display: flex;
-  margin-bottom: 40px;
+  margin: 100px 0;
   gap: 15px;
   justify-content: space-around;
   align-items: center;
@@ -247,6 +247,9 @@ img {
 /*END SECTION TECNOLOGIES*/
 
 /*SECTION PROJECTS*/
+#projects{
+    margin: 150px 0;
+}
 .info-projects {
   display: flex;
   gap: 50px;
