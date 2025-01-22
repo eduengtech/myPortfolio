@@ -223,3 +223,53 @@ img{
     height: 100px;
 }
 /*END SECTION TECNOLOGIES*/
+
+/*SECTION PROJECTS*/
+.info-projects{
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+}
+.card-project{
+    min-height: 550px;
+    height: fit-content;
+    background-color: #363636;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.info-card-project{
+    padding: 1.5em;
+}
+.info-card-project h3{
+    font-size: 22px;
+    color: #ccc;
+    font-weight: 400;
+    text-align: center;
+}
+.info-card-project p{
+    text-align: justify;
+    color: #ccc;
+    font-size: 16px;
+}
+.footer-project {
+    display: flex;
+    justify-content: space-between;
+}
+.url-project, .code-project{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.url-project a, .code-project a{
+    color: #fff;
+    text-decoration: none;
+    transition: color .5s;
+}
+.url-project a:hover, .code-project a:hover{
+    color: #00d4ff;
+}
+/*END SECTION PROJECTS*/
