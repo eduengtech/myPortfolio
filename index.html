@@ -36,25 +36,27 @@
               ><h2>Edu<span>Victor</span></h2></a
             >
           </div>
-          <nav class="navbar">
-            <ul class="navbar-nav">
-              <li class="navbar-items">
-                <a href="#hero" class="navbar-link">HOME</a>
-              </li>
-              <li class="navbar-items">
-                <a href="#aboutme" class="navbar-link">SOBRE</a>
-              </li>
-              <li class="navbar-items">
-                <a href="#technologies" class="navbar-link">TECNOLOGIAS</a>
-              </li>
-              <li class="navbar-items">
-                <a href="#project" class="navbar-link">PROJETOS</a>
-              </li>
-              <li class="navbar-items">
-                <a href="#contact" class="navbar-link">CONTATO</a>
-              </li>
-            </ul>
-          </nav>
+          <div class="info-menu">
+            <nav class="navbar">
+              <ul class="navbar-nav">
+                <li class="navbar-items">
+                  <a href="#hero" class="navbar-link">HOME</a>
+                </li>
+                <li class="navbar-items">
+                  <a href="#aboutme" class="navbar-link">SOBRE</a>
+                </li>
+                <li class="navbar-items">
+                  <a href="#technologies" class="navbar-link">TECNOLOGIAS</a>
+                </li>
+                <li class="navbar-items">
+                  <a href="#project" class="navbar-link">PROJETOS</a>
+                </li>
+                <li class="navbar-items">
+                  <a href="#contact" class="navbar-link">CONTATO</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
           <div class="mobile-btn">&#9776;</div>
         </div>
       </div>
@@ -70,8 +72,8 @@
               <div class="text-animation"><span></span></div>
             </h1>
             <div class="social-icoms">
-              <i class="bi bi-github"></i>
-              <i class="bi bi-linkedin"></i>
+              <a href=""><i class="bi bi-github"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
             <div class="btn-cv">
               <a href="">Download do CV</a>
@@ -256,29 +258,6 @@
         </div>
       </div>
     </section>
-    <div class="section" id="contact">
-      <div class="container">
-        <div class="header-section">
-          <h1 class="title">Vamos conversar?</h1>
-          <h2 class="subtitle">Entre em contato comigo!</h2>
-        </div>
-        <div class="info-contact">
-          <form action="" class="form-control">
-            <input type="text" name="nome" placeholder="Nome">
-            <input type="email" name="email" placeholder="Email">
-            <input type="text" name="subject" placeholder="Assunto">
-            <textarea  id="message" placeholder="Mensagem"></textarea>
-            <div class="submit-form">
-              <input type="submit" value="Enviar">
-              <img src="public/image/Nav-Arrow 1.svg" alt="arrow nav-submit">
-            </div>
-          </form>
-          <p id="loading" class="response-forms" style="display: none;">Carregando...</p>
-          <p id="success-message" class="response-forms" style="display: none;">Email enviado com sucesso</p>
-          <p id="error-message" class="response-forms" style="display: none;">Erro ao enviar a mensagem. Envie um e-mail para eduardodejesus.dev@gmail.com</p>
-        </div>
-      </div>
-    </div>
 
     <footer id="footer">
       <div class="container">
@@ -289,19 +268,24 @@
             >
           </div>
           <div class="footer-contact">
-            <h3>Contato</h3>
+            <h3> Entre em contato:</h3>
             <p><strong>Email:</strong> eduardodejesus.dev@gmail.com</p>
             <p>
               <i class="bi bi-whatsapp"></i>
               (73) 99973-5102
             </p>
             <div class="social-icoms">
-              <i class="bi bi-github"></i>
-              <i class="bi bi-linkedin"></i>
+              <a href=""><i class="bi bi-github"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+              <a href=""><i class="bi bi-whatsapp"></i></a>
             </div>
           </div>
         </div>
+        <div class="copy">
+          <p>&copy 2025 - Todos os direitos reservados</p>
+        </div>
       </div>
     </footer>
+    <script src="/src/js/script.js"></script>
   </body>
 </html>
