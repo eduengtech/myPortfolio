@@ -249,6 +249,12 @@ img {
 .skills img {
   width: 100px;
   height: 100px;
+  filter: grayscale(0);
+  transition: filter .5s;
+}
+.skills img:hover{
+  cursor: pointer;
+  filter: grayscale(100%);
 }
 /*END SECTION TECNOLOGIES*/
 
