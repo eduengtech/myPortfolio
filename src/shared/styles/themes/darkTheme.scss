@@ -1,0 +1,41 @@
+.dark {
+  --bg-color: #0f172a;
+  --bg-section-color: #1e293b;
+
+  --text-primary-color: #f1f5f9;
+  --text-secondary-color: #94a3b8;
+  --text-highlight-color: #3b82f6;
+  --hover-color: #60a5fa;
+}
+
+h1, h2, h3 {
+    color: var(--text-primary-color);
+}
+a {
+    color: var(--text-primary-color);
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+
+    &:hover {
+        text-decoration: var(--text-color-hover);
+    }
+    &:active {
+        text-decoration: none;
+        color: var(--text-primary-color);
+    }
+}
+
+button {
+    color: var(--text-color-destaque);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: var(--text-color-hover);
+    }
+    &:active {
+        color: var(--text-primary-color);
+    }
+}
