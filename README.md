@@ -8,6 +8,7 @@ Este projeto é um portfólio pessoal desenvolvido com **React**, **Vite** e **S
 - 🧭 Componente **Header** com navegação responsiva
 - 🖼️ Componente **Logo** que se adapta ao tema atual
 - 🎛️ Componente **ToggleTheme** para alternar entre os temas
+-     Componente **Footer** 
 
 ## 🛠️ Tecnologias utilizadas
 
