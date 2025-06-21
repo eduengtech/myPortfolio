@@ -1,4 +1,4 @@
-# Portfólio Pessoal - React + Vite + MUI
+# Portfólio Pessoal - React + Vite 
 
 Este projeto é um portfólio pessoal desenvolvido com **React**, **Vite** e **SCSS/Saas**. O objetivo é apresentar meus projetos, habilidades e trajetória como desenvolvedor Frontend.
 
