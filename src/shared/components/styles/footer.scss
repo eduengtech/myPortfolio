@@ -1,0 +1,25 @@
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+.info__footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 2.5rem;
+    margin-top: 3rem;
+    height: 20vh;
+}
+.info__contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.footer__copyright{
+    margin: 1rem auto;
+    font-size: 15px;
+    font-weight: 700;
+}

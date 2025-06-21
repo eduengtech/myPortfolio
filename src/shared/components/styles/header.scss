@@ -3,7 +3,7 @@
     padding:8px;
     height: 15vh ;
     display: flex;
-    box-shadow: 0px 2px 5px 0px rgba(255,255,255,0.67);
+    box-shadow: 0px 2px 5px 0px #ffffffab;
 }
 .container{
     display: flex;
@@ -14,7 +14,8 @@
 }
 
 .logo {
-    width: 450px;
+    width: 500px;
+    
 }
 
 .toggle-switch{
