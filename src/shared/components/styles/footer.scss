@@ -1,25 +1,42 @@
-#container{
+#footer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 }
-
 .info__footer{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content:space-between;
-    padding: 0 2.5rem;
+    margin-bottom: 1.3rem;
+}
+
+.footer__header{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 9.5rem;
     margin-top: 3rem;
-    height: 20vh;
+    height: 15vh;
 }
 .info__contact{
     display: flex;
-    align-items: center;
-    gap: 10px;
+    flex-direction: row;
+    align-items: end;
+    gap: 1.5rem;
 }
 
+.info__redes{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 1.5rem;
 
-.footer__copyright{
-    margin: 1rem auto;
+}
+.footer__copyright p{
+    display: flex;
+    align-items: center;
     font-size: 15px;
     font-weight: 700;
+    
 }

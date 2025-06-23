@@ -1,0 +1,42 @@
+.info__hero{
+    display: flex;
+    gap: 250px;
+    align-items: center;
+
+}
+
+.hero__apresentation{
+    width: 500px;
+    text-align: justify;
+    margin-bottom: 5rem;
+}
+
+
+
+.hero__avatar img{
+    border-radius: 50%;
+    width: 350px;
+    box-shadow: 1px 1px  20px  #00D3EB;
+}
+.name__apresentation {
+    color: #00D3EB;
+    gap: 4px;
+    
+}
+.text__animation {
+    font-weight: 600;
+    color: #00D3EB;
+    
+
+  .cursor {
+
+    font-weight: bold;
+    animation: blink 1s step-start infinite;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

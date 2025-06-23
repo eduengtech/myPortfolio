@@ -5,7 +5,7 @@
   --text-primary-color: #f1f5f9;
   --text-secondary-color: #94a3b8;
   --text-highlight-color: #3b82f6;
-  --hover-color: #60a5fa;
+  --hover-color: #00D3EB;
 }
 
 h1, h2, h3 {
@@ -17,11 +17,11 @@ a {
     transition: text-decoration 0.3s ease;
 
     &:hover {
-        text-decoration: var(--text-color-hover);
+        text-decoration: var( --hover-color);
     }
     &:active {
         text-decoration: none;
-        color: var(--text-primary-color);
+        color: var(--hover-color);
     }
 }
 

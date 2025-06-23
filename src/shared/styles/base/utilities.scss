@@ -1,0 +1,38 @@
+$breakpoints: (
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
+
+$container-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px
+);
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @each $bp, $width in $container-widths{
+    @media (min-width: #{$width}) {
+        max-width: $width;
+    }
+  }
+
+  @mixin respond-to($bp) {
+    @if map-has-key($map:$breakpoints , $key:$bp ){
+        @media (min-width: map-get($breakpoints, $bp)) {
+            @content;
+        }
+    }
+  }
+}
+
