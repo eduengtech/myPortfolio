@@ -1,4 +1,4 @@
-import '../styles/hero.scss'
+import '../../styles/hero.scss'
 import { TypeAnimation } from 'react-type-animation';
 
 export function Hero() {
@@ -6,7 +6,7 @@ export function Hero() {
     return (
         <>
             <div className="container">
-                <section className="info__hero">
+                <section id='hero'>
                     <div className="hero__apresentation">
                         <h1 className="title">
                             Olá! <br />

@@ -1,5 +1,5 @@
-import { Logo } from "../logo/logo"
-import "../styles/footer.scss"
+import { Logo } from "../../logo/logo"
+import "../../styles/footer.scss"
 import { FaGithub, FaLinkedin,FaWhatsapp  } from "react-icons/fa";
 export function Footer() {
 

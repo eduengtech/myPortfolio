@@ -1,0 +1,33 @@
+#about{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: auto;
+}
+
+.infoHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2em;
+}
+
+.title__about{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.title__about span{
+    color: #00d3eb;
+    font-weight: 400;
+}
+
+.subtitle__about {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 2em;
+}
+
+.text__about p{
+    text-align: justify;
+    padding-bottom: 0.9em;
+}

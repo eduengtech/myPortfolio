@@ -1,0 +1,29 @@
+#tecnologies{
+    display: flex;
+    justify-content: space-between;
+}
+.info_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5em;
+}
+.container_tecnologies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tecnologies_grid{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 2rem;
+}
+
+.tecnologies_grid img{
+    width: 80px;
+    height: 80px;
+}

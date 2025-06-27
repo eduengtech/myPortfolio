@@ -26,14 +26,14 @@ a {
 }
 
 button {
-    color: var(--text-color-destaque);
+    color: var(--text-highlight-color);
     background-color: transparent;
     border: none;
     cursor: pointer;
     transition: color 0.3s ease;
 
     &:hover {
-        color: var(--text-color-hover);
+        color: var(--hover-color);
     }
     &:active {
         color: var(--text-primary-color);
