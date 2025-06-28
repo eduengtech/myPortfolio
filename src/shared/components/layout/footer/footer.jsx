@@ -18,9 +18,9 @@ export function Footer() {
                                 <p> (73) 9 9973-5102</p>
                             </div>
                             <div className="info__redes">
-                                <a href=""><span><FaGithub /></span></a>
-                                <a href=""><span><FaLinkedin /></span></a>
-                                <a href=""><span> <FaWhatsapp /></span></a>
+                                <a href="https://github.com/eduengtech"><span><FaGithub /></span></a>
+                                <a href="https://www.linkedin.com/in/eduardovictor/"><span><FaLinkedin /></span></a>
+                                <a href="https://wa.me/5573999735102?text=Olá%20Dudu%2C%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20seus%20serviços."><span> <FaWhatsapp /></span></a>
                             </div>
                         </div>
                         <div className="footer__copyright">

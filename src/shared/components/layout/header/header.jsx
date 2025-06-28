@@ -24,7 +24,7 @@ export function Header() {
 
                         <nav className={`navbar ${isMenuOpen ? 'open' : ''}`}>
                             <ul className='nav-link'>
-                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">INICIO</a></li>
                                 <li><a href="#about">SOBRE</a></li>
                                 <li><a href="#tecnologies">TECNOLOGIAS</a></li>
                                 <li><a href="#highlights">DESTAQUES</a></li>
