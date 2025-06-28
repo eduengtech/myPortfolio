@@ -1,4 +1,4 @@
-
+import { FaLink, FaGithub } from "react-icons/fa";
 
 export function Destaques() {
 
@@ -26,6 +26,20 @@ export function Destaques() {
                                 <div className="footer__card">
                                     <p><strong>Stack:</strong> React, Saas, Vite</p>
                                 </div>
+                                <div className="links__card">
+                                    <div className="link_card">
+                                        <a href="https://eduardovictor.vercel.app/">
+                                            <FaLink />
+                                            <span>: Site</span>
+                                        </a>
+                                    </div>
+                                    <div className="card_code">
+                                        <a href="https://github.com/eduengtech/myPortfolio.git">
+                                            <FaGithub />
+                                            <span>: Codigo fonte</span>
+                                        </a>
+                                    </div>
+                                </div>  
                             </div>
                         </div>
 
@@ -43,6 +57,20 @@ export function Destaques() {
                                 <div className="footer__card">
                                     <p><strong>Stack:</strong> a definir</p>
                                 </div>
+                                <div className="links__card">
+                                    <div className="link_card">
+                                        <a href="">
+                                            <FaLink />
+                                            <span>: Site</span>
+                                        </a>
+                                    </div>
+                                    <div className="card_code">
+                                        <a href="#">
+                                            <FaGithub />
+                                            <span>: Codigo fonte</span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -59,6 +87,16 @@ export function Destaques() {
                                 </div>
                                 <div className="footer__card">
                                     <p><strong>Stack:</strong> a definir</p>
+                                </div>
+                                <div className="links__card">
+                                    <div className="link_card">
+                                        <FaLink />
+                                        <span>: Site</span>
+                                    </div>
+                                    <div className="card_code">
+                                        <FaGithub /> 
+                                        <span>: Codigo fonte</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
