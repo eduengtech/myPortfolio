@@ -1,22 +1,55 @@
-# Portfólio Pessoal - React + Vite + Sass
+# 💼 Portfólio Pessoal - Eduardo Victor
 
-Este projeto é um portfólio pessoal desenvolvido com **React**, **Vite** e **SCSS/Saas**. O objetivo é apresentar meus projetos, habilidades e trajetória como desenvolvedor Frontend.
+Este é o repositório do meu portfólio pessoal, desenvolvido com o objetivo de apresentar minha trajetória, habilidades e projetos. O foco é demonstrar meu conhecimento em desenvolvimento web, utilizando tecnologias modernas, responsivas e acessíveis.
 
-## 🚀 Funcionalidades já implementadas
+---
 
-- 🌗 Alternância entre modos **claro e escuro** com persistência do tema
-- 🧭 Componente **Header** com navegação responsiva
-- 🖼️ Componente **Logo** que se adapta ao tema atual
-- 🎛️ Componente **ToggleTheme** para alternar entre os temas
--    Componente **Footer** 
--
+## 🚀 Tecnologias Utilizadas
 
-## 🛠️ Tecnologias utilizadas
+- **React** (com Vite)
+- **SCSS (Sass)** para estilização
+- **React Icons**
+- **Dark Mode** com `Context API` e persistência no `localStorage`
+- **Responsividade** com `Flexbox`, `Grid` e `media queries`
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [SCSS/Saas] (https://sass-lang.com/)
-- Context API (para gerenciamento do tema)
+---
+
+## 📄 Funcionalidades
+
+- ✅ Alternância entre modo claro e escuro
+- ✅ Menu de navegação responsivo com `Drawer` em mobile
+- ✅ Componentização das principais seções:
+  - Hero (Apresentação)
+  - Sobre Mim
+  - Projetos em destaque
+  - Stack Tecnológica
+  - Rodapé com redes sociais
+- ✅ Temas personalizados para modo claro e escuro
+- ✅ Design 100% responsivo e adaptável
+
+---
+
+## 📁 Estrutura de Pastas
+├──public/
+|   ├──image
+|   ├──favicon.ico    
+src/
+├── assets/ # logos
+├── shared/
+│ ├── components/ # Componentes reutilizáveis
+│ ├── context/ # Context API (tema)
+│ ├── hooks/ # Custom Hooks
+│ ├── styles/ # SCSS global e seções
+├── App.jsx # Estrutura base
+└── main.jsx # Ponto de entrada
+
+## 📫 Contato
+
+- Email: eduardodejesus.dev@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/eduardovictor/)
+- [GitHub](https://github.com/eduengtech)
+
+---
 
 # 📦 Como executar localmente
 
@@ -32,3 +65,10 @@ npm install
 npm run dev
 ```
 
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo como base no seu próprio portfólio.
+
+---
+
+> Feito com 💙 por Eduardo Victor

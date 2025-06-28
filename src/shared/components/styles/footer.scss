@@ -9,29 +9,32 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 1.3rem;
+   
+    width: 100%;
 }
 
 .footer__header{
     display: flex;
     align-items: center;
     justify-items: center;
-    gap: 9.5rem;
+    justify-content: space-evenly;
+    gap: 10.9999999rem;
     margin-top: 3rem;
     height: 15vh;
+    margin-bottom: 1.5rem;
 }
 .info__contact{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: end;
-    gap: 1.5rem;
+    gap: .1rem;
 }
 
-.info__redes{
+.info__redes {
     display: flex;
     flex-direction: row;
     align-items: end;
-    gap: 1.5rem;
-
+    gap: 1rem;
 }
 .footer__copyright p{
     display: flex;
@@ -39,4 +42,27 @@
     font-size: 15px;
     font-weight: 700;
     
+}
+.info__redes a{
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .footer__header{
+        gap:.1rem ;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        gap: 5rem;
+    }
+    .logo{
+        display: none;
+    }
+    .info__contact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: .1rem;
+    }
 }

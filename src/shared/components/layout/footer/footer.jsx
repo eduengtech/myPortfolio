@@ -13,6 +13,7 @@ export function Footer() {
                                 <Logo />
                             </div>
                             <div className="info__contact">
+                                <h3>Contato:</h3>
                                 <p>eduardodejesus.dev@gmail.com</p>
                                 <p> (73) 9 9973-5102</p>
                             </div>

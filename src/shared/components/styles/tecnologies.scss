@@ -27,3 +27,10 @@
     width: 80px;
     height: 80px;
 }
+
+@media (max-width: 768px) {
+    .tecnologies_grid{
+        display: flex;
+        flex-direction:column;
+    }
+}

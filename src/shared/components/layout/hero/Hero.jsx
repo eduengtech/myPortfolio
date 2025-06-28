@@ -1,3 +1,4 @@
+import { Botton } from '../../button/button';
 import '../../styles/hero.scss'
 import { TypeAnimation } from 'react-type-animation';
 
@@ -29,7 +30,11 @@ export function Hero() {
                             />
                         </h1>
                         <p className="hero__subtitle">Transformo ideias em soluções digitais modernas, acessíveis e eficientes.Te ajudo a tirar projetos do papel com tecnologia, design e propósito.</p>
+
+                        <Botton />
                     </div>
+                    
+                    
 
                     <div className="hero__avatar">
                         <img src="/image/_perfil__img.jpg" alt="_perfil__img" className="heroPerfil" />

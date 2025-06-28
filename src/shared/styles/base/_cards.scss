@@ -4,7 +4,7 @@
 
 .grid__card {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch; /* Faz os cards se esticarem com base no mais alto */
@@ -14,7 +14,7 @@
 .card {
   background-color: var(--bg-section-color);
   color: var(--text-primary-color);
-  width: 25vw;
+  width: 32%;
   border-radius: 1rem;
   padding: 0;
   display: flex;
@@ -58,3 +58,14 @@
   margin-bottom: 1rem;
 }
 
+@media (max-width:768px) {
+  .grid__card  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .info_header{
+    text-align: center;
+  }
+}
